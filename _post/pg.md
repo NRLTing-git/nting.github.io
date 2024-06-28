@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Completing Project Gutenberg’s Unfinished Bookshelves"
