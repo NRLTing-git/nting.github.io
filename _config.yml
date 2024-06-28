@@ -13,7 +13,6 @@ defaults:
     values:
       show_date: true
       author_profile: true
-      show_tags: true
   - scope:
       path: ""
       type: "pages"
