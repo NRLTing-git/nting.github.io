@@ -140,4 +140,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-relative-links
   - jekyll-jupyter-notebook
+  
+permalink: /:year/:month/:day/:title/
 
