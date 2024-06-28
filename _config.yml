@@ -4,24 +4,42 @@ email: nrl.ting@gmail.com
 subtitle: "Hello world!"
 name: "Nico Rafael Ting"
 
+
 author:
-  name: "Nico Rafael Ting"
-  avatar: "assets/image/LinkedIn DP.jpg"
-  bio: "A Data Scientist in the making" 
-  location: "Taguig, Philippines"
+  name: "Miguel Singian"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Data scientist and cookies and cream enthusiast." 
+  location: "Metro Manila, Philippines"
   links:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
+      url: "https://www.linkedin.com/in/miguel-lorenzo-singian/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/NRLTing-git/my-projects"
+      url: "https://github.com/MiguelSingian"
     - label: "Email"
       icon: "fa fa-envelope"
-      url: "mailto: nrl.ting@gmail.com"
+      url: "mailto: migsingian@gmail.com"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://www.instagram.com/miguelsingian/"
+
+
+# author:
+#   name: "Nico Rafael Ting"
+#   avatar: "assets/image/LinkedIn DP.jpg"
+#   bio: "A Data Scientist in the making" 
+#   location: "Taguig, Philippines"
+#   links:
+#     - label: "LinkedIn"
+#       icon: "fa-brands fa-linkedin"
+#       url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/NRLTing-git/my-projects"
+#     - label: "Email"
+#       icon: "fa fa-envelope"
+#       url: "mailto: nrl.ting@gmail.com"
 
 footer:
   links:
