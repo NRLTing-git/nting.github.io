@@ -1,16 +1,8 @@
-# nting.github.io
-# Welcome to My Site
-
-Hello World
-
-This is my GitHub Pages site.
-
 ## About Me
-
-- I love coding.
-- I enjoy learning new technologies.
+A dedicated Data Science Professional, seeking an engaging opportunity to apply my knowledge and skills in a 
+practical setting. My passion for uncovering insights from complex datasets, combined with my ability to 
+communicate these findings effectively, positions me well for roles where data science can make a significant 
+impact.
 
 ### Projects
 
-1. Project One
-2. Project Two
