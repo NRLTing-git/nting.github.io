@@ -4,4 +4,4 @@ positions me well for roles where data science can make a significant impact.
 
 ## Projects
 
-- [Completing Project Gutenberg’s Unfinished Bookshelves](/pg)
+- [Completing Project Gutenberg’s Unfinished Bookshelves](/2024/06/16/project-gutenberg)
