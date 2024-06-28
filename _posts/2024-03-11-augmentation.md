@@ -17,7 +17,7 @@ and using SHAP to identify emotion-associated keywords to guide the generation p
 to overcome data constraints and unlock AI capabilities through informed prompt engineering and interpretability methods.
 
 Snippet of what the data used in this study
-![Emotion](/assets/image/ml2-dataset.jpg)
+![Emotion](/nting.github.io/assets/image/ml2-dataset.jpg)
 
 **Results**
 
