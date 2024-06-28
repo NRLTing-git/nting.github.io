@@ -7,18 +7,18 @@ name: "Nico Rafael Ting"
 author:
   name: "Nico Rafael Ting"
   avatar: "/assets/image/LinkedIn DP.jpg"
-  bio: "Data scientist and cookies and cream enthusiast." 
-  location: "Metro Manila, Philippines"
+  bio: "A Data Scientist in the making" 
+  location: "Taguig, Philippines"
   links:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/miguel-lorenzo-singian/"
+      url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/MiguelSingian"
+      url: "https://github.com/NRLTing-git/my-projects"
     - label: "Email"
       icon: "fa fa-envelope"
-      url: "mailto: migsingian@gmail.com"
+      url: "mailto: nrl.ting@gmail.com"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://www.instagram.com/miguelsingian/"
@@ -27,20 +27,13 @@ footer:
   links:
       - label: "LinkedIn"
         icon: "fa-brands fa-linkedin"
-        url: "https://www.linkedin.com/in/miguel-lorenzo-singian/"
+        url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
       - label: "GitHub"
         icon: "fab fa-fw fa-github"
-        url: "https://github.com/MiguelSingian"
+        url: "https://github.com/NRLTing-git/my-projects"
       - label: "Email"
         icon: "fa fa-envelope"
-        url: "mailto: migsingian@gmail.com"
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+        url: "mailto: nrl.ting@gmail.com"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.25.0" 
