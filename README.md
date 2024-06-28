@@ -5,4 +5,6 @@ communicate these findings effectively, positions me well for roles where data s
 impact.
 
 # Projects
+1. one
+2. two
 
