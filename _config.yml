@@ -4,6 +4,8 @@ email: nrl.ting@gmail.com
 subtitle: "Hello world!"
 name: "Nico Rafael Ting"
 
+include: ["_pages"]
+
 defaults:
   - scope:
       path: ""
