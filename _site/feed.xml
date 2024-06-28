@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T22:03:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><author><name>Nico Rafael Ting</name></author><entry><title type="html">Predicting News Attentionn and What Drives It</title><link href="http://localhost:4000/2024/06/13/gdelt/" rel="alternate" type="text/html" title="Predicting News Attentionn and What Drives It" /><published>2024-06-13T00:00:00+08:00</published><updated>2024-06-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/13/gdelt</id><content type="html" xml:base="http://localhost:4000/2024/06/13/gdelt/"><![CDATA[<p>AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction</p>
+
+<p>This Project is a Big Data Project and was done through AWS specifically in EMR Wokrspace</p>
+
+<p>This study focuses on developing predictive models to estimate the number of mentions within the Global Database of Events, Language, and Tone (GDELT) dataset.
+GDELT is a comprehensive collection of global news and events, documented from various sources around the world. 
+Leveraging big data and cloud computing technologies, we aim to gain valuable insights into trends of real-world events. 
+Our study encompasses the following areas:</p>
+
+<ul>
+  <li>Predictive Modeling: Implementing and evaluating different machine learning models to accurately predict number of mentions.</li>
+  <li>Feature Importance: By determining the most influential factors that affects the mention counts, we aim to uncover patterns in global news dissemination</li>
+  <li>Big Data Integration: Utilization of cloud computing resources to manage and process the vast GDELT dataset efficiently.</li>
+</ul>
+
+<p><strong>Methodology</strong>
+<img src="/assets/image/bdcc_methodology.jpg" alt="Methodology" /></p>
+
+<p><strong>Restuls</strong></p>
+
+<p><strong>Prediction</strong>
+<img src="/assets/image/bdcc_pred.jpg" alt="prediction" /></p>
+
+<p><strong>Feature Importance</strong>
+<img src="/assets/image/bdcc_feature.jpg" alt="Importancee" /></p>
+
+<p>Based on the result, we are able to create a model that can predict the number of mentions with an average error of under 3. 
+This is quite a good result with a significant improvement over the baseline with an average error of 13, and shows that the features that are in GDELT 
+are actually able to capture important factors that affect news importance. The top three features that affect the number of mentions are isolated into the Actor1Name,
+Actor1CountryCode, and the Actor1Code. Since these are all string indexes, that means that it is the frequency of the item which is correlated with the importance of 
+the event in the news. Most likely, this is because the most attention grabbing events and actors are also the most commonly covered and mentioned events. 
+What is surprising is that the goldstein score which is meant to be a measurement of the impact of conflict or cooperation is very low on feature importance and has 
+low predictive power of event importance.</p>
+
+<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/What's%20Popping%3F%3A%20Predicting%20News%20Attention%20and%20What%20Drives%20It">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Big" /><category term="Data" /><category term="Cloud" /><category term="Computing" /><category term="GDELT" /><category term="Events" /><category term="Prediction" /><summary type="html"><![CDATA[AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction]]></summary></entry><entry><title type="html">Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition</title><link href="http://localhost:4000/2024/06/12/autoencoder/" rel="alternate" type="text/html" title="Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition" /><published>2024-06-12T00:00:00+08:00</published><updated>2024-06-12T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/12/autoencoder</id><content type="html" xml:base="http://localhost:4000/2024/06/12/autoencoder/"><![CDATA[<p>Machine Learning | Autoencoder | Neural Network | Clustering</p>
+
+<p>This study explores the use of autoencoders as a data preprocessing step to improve feature separation by latent factor extraction. Data Compression through various methods is useful in Data Science to improve feature separation or as feature engineering or vectorization. Our study furthers this by attempting to make a universalizable method for preprocessing by using a proximity matrix and then an autoencoder to use relationships between rows as the primary features that we extract and use for clustering. Clustering is done with K-means and Ward’s clustering algorithms, and the best performing results are noted. We evaluate this method over five University of Irving public datasets commonly used as benchmarks and show in which cases that the method can effectively improve feature extraction and thus the clustering results.</p>
+
+<p>The data used for this study can be found <a href="https://scikit-learn.org/stable/datasets/toy_dataset.html">here</a></p>
+
+<p><strong>The study follows this general pipeline</strong>
+<img src="/assets/image/pipeline.jpg" alt="Pipeline" /></p>
+
+<p>Final Results</p>
+
+<p><strong>K-Means</strong>
+<img src="/assets/image/K-means.jpg" alt="K-Means" /></p>
+
+<p><strong>Ward’s Method</strong>
+<img src="/assets/image/wards.jpg" alt="Ward's" /></p>
+
+<p>Insights:</p>
+<ol>
+  <li>Different Autoencoder architecture or preprocessing steps can extract different features to improve the performance of clustering</li>
+  <li>Domain Expertise can be applied to customize the preparation step</li>
+  <li>This can be applied into customer segmentation, anomaly detection, and product categorization</li>
+</ol>
+
+<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Machine" /><category term="Learning" /><category term="Autoencoder" /><category term="Neural" /><category term="Network" /><category term="Clustering" /><summary type="html"><![CDATA[Machine Learning | Autoencoder | Neural Network | Clustering]]></summary></entry><entry><title type="html">Data In Disguise: Getting More From Less with AI</title><link href="http://localhost:4000/2024/03/11/augmentation/" rel="alternate" type="text/html" title="Data In Disguise: Getting More From Less with AI" /><published>2024-03-11T00:00:00+08:00</published><updated>2024-03-11T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/11/augmentation</id><content type="html" xml:base="http://localhost:4000/2024/03/11/augmentation/"><![CDATA[<p>Data Augmentation | Large Language Models | Shapely Additive Explanation</p>
+
+<p>The study explores using LLMs like ChatGPT and Claude, along with the Shapley Additive Explanations (SHAP) algorithm, 
+to create synthetic data for enhancing emotion detection models. A logistic regression model trained on a combination
+of real and LLM-generated synthetic data achieved comparable accuracies up to 78.5% and 78.8% respectively, demonstrating
+the viability of using LLMs to effectively mimic real data distributions. Key factors include providing LLMs with data exemplars
+and using SHAP to identify emotion-associated keywords to guide the generation process. The study highlights the potential of LLMs
+to overcome data constraints and unlock AI capabilities through informed prompt engineering and interpretability methods.</p>
+
+<p>Snippet of what the data used in this study
+<img src="/assets/image/ml2-dataset.jpg" alt="Emotion" /></p>
+
+<p><strong>Results</strong></p>
+
+<p><strong>Improvements in Model Accuracy with Addition of Supplementary Data</strong>
+<img src="/assets/image/ml2-resutls.jpg" alt="Result" /></p>
+
+<p><strong>Progression of Accuracy as Real and LLM-Generated Data are Added</strong>
+<img src="/assets/image/ml2-graph.jpg" alt="graph" /></p>
+
+<p>Overall, the results of this paper highlight the immense potential of leveraging large language models to
+generate high-quality synthetic data, thereby helping organizations overcome data scarcity challenges and take advantage of the full capabilities
+of state-of-the-art AI systems, particularly in the context of emotion detection or sentiment analysis tasks.
+However, it is important to note that the key to unlocking this insight lies in the process of prompt engineering,
+which involves carefully crafting the prompts given to LLMs. In this study, the prompt engineering process was informed by two crucial components:</p>
+<ol>
+  <li>Exemplars: A set of 40 real data samples were provided as exemplars to the
+LLMs, allowing them to grasp the desired structure, tone, and style of the
+target textual data.</li>
+  <li>SHAP-derived keywords: The Shapley Additive Explanations (SHAP) algorithm was employed to identify the most influential words that contribute
+to the prediction of each emotion class (anger and joy). <br /></li>
+</ol>
+
+<p>These SHAP-derived keywords were then incorporated into the prompts, guiding
+the LLMs to generate synthetic data that accurately reflects the linguistic patterns
+associated with each emotion. By combining these two components, the prompt engineering process ensured that the LLMs had access to both representative examples
+and the most salient features of the real data</p>
+
+<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Data" /><category term="Augmentation" /><category term="Large" /><category term="Language" /><category term="Models" /><category term="Shapely" /><category term="Additive" /><category term="Explanation" /><summary type="html"><![CDATA[Data Augmentation | Large Language Models | Shapely Additive Explanation]]></summary></entry></feed>

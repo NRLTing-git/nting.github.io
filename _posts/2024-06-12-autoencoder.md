@@ -14,20 +14,20 @@ This study explores the use of autoencoders as a data preprocessing step to impr
 The data used for this study can be found [here](https://scikit-learn.org/stable/datasets/toy_dataset.html)
 
 **The study follows this general pipeline**
-![Pipeline](assets/image/pipeline.jpg)
+![Pipeline](/assets/image/pipeline.jpg)
 
 
 Final Results
 
 **K-Means**
-![K-Means](assets/image/K-means.jpg)
+![K-Means](/assets/image/K-means.jpg)
 
 **Ward's Method**
-![Ward's](assets/image/wards.jpg)
+![Ward's](/assets/image/wards.jpg)
 
 Insights:
 1. Different Autoencoder architecture or preprocessing steps can extract different features to improve the performance of clustering
 2. Domain Expertise can be applied to customize the preparation step
 3. This can be applied into customer segmentation, anomaly detection, and product categorization
 
-
+For a more detailed report you can access the paper and coder [here](https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition)
