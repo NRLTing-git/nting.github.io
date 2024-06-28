@@ -1,84 +1,3 @@
-# title: My Portfolio
-# repository: NRLTing-git/nting.github.io
-# email: nrl.ting@gmail.com
-# subtitle: "Hello world!"
-# name: "Nico Rafael Ting"
-
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: "post"
-#     values:
-#       show_date: true
-#       author_profile: true
-#   # _pages
-#   - scope:
-#       path: ""
-#       type: "page"
-#     values:
-#       layout: single
-#       author_profile: true
-
-# # author:
-# #   name: "Miguel Singian"
-# #   avatar: "/assets/images/bio-photo.jpg"
-# #   bio: "Data scientist and cookies and cream enthusiast." 
-# #   location: "Metro Manila, Philippines"
-# #   links:
-# #     - label: "LinkedIn"
-# #       icon: "fa-brands fa-linkedin"
-# #       url: "https://www.linkedin.com/in/miguel-lorenzo-singian/"
-# #     - label: "GitHub"
-# #       icon: "fab fa-fw fa-github"
-# #       url: "https://github.com/MiguelSingian"
-# #     - label: "Email"
-# #       icon: "fa fa-envelope"
-# #       url: "mailto: migsingian@gmail.com"
-
-
-# author:
-#   name: "Nico Rafael Ting"
-#   avatar: "assets/image/LinkedIn DP.jpg"
-#   bio: "A Data Scientist in the making" 
-#   location: "Taguig, Philippines"
-#   links:
-#     - label: "LinkedIn"
-#       icon: "fa-brands fa-linkedin"
-#       url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/NRLTing-git/my-projects"
-#     - label: "Email"
-#       icon: "fa fa-envelope"
-#       url: "mailto: nrl.ting@gmail.com"
-
-# footer:
-#   links:
-#       - label: "LinkedIn"
-#         icon: "fa-brands fa-linkedin"
-#         url: "https://www.linkedin.com/in/nico-rafael-ting-7b5985242/"
-#       - label: "GitHub"
-#         icon: "fab fa-fw fa-github"
-#         url: "https://github.com/NRLTing-git/my-projects"
-#       - label: "Email"
-#         icon: "fa fa-envelope"
-#         url: "mailto: nrl.ting@gmail.com"
-
-# # Build settings
-# remote_theme: "mmistakes/minimal-mistakes@4.25.0" 
-# # theme: minima
-# plugins:
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jemoji
-#   - jekyll-include-cache
-#   - jekyll-relative-links
-#   - jekyll-jupyter-notebook
-
-
 title: My Portfolio
 repository: NRLTing-git/nting.github.io
 email: nrl.ting@gmail.com
@@ -86,14 +5,12 @@ subtitle: "Hello world!"
 name: "Nico Rafael Ting"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: "posts"
     values:
       show_date: true
       author_profile: true
-  # _pages
   - scope:
       path: ""
       type: "pages"
@@ -140,6 +57,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-relative-links
   - jekyll-jupyter-notebook
-  
-permalink: /:year/:month/:day/:title/
 
+# Permalink configuration
+permalink: /:year/:month/:day/:title/
