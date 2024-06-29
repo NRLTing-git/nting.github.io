@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Research Realness, No Cap Just Facts - My Portfolio</title>
-<meta name="description" content="Big Data | OpenAlex | EDA | Pyspark">
+<!-- begin _includes/seo.html --><title>ARIMA vs LSTM vs GRU - My Portfolio</title>
+<meta name="description" content="Time Series Forecasting | Nerual Network |  ARIMA | Prediction">
 
 
   <meta name="author" content="Nico Rafael Ting">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="My Portfolio">
-<meta property="og:title" content="Research Realness, No Cap Just Facts">
-<meta property="og:url" content="http://localhost:4000/2024/05/15/bdcc_lab/">
+<meta property="og:title" content="ARIMA vs LSTM vs GRU">
+<meta property="og:url" content="http://localhost:4000/2024/05/08/Forecasting/">
 
 
-  <meta property="og:description" content="Big Data | OpenAlex | EDA | Pyspark">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/image/bdcc_lab.jpg">
+  <meta property="og:description" content="Time Series Forecasting | Nerual Network |  ARIMA | Prediction">
 
 
 
-
-
-  <meta property="article:published_time" content="2024-05-15T00:00:00+08:00">
+  <meta property="og:image" content="http://localhost:4000/assets/image/ts_bg.jpg">
 
 
 
 
 
+  <meta property="article:published_time" content="2024-05-08T00:00:00+08:00">
 
-<link rel="canonical" href="http://localhost:4000/2024/05/15/bdcc_lab/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2024/05/08/Forecasting/">
 
 
 
@@ -136,18 +136,18 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: url('/assets/image/bdcc_lab.jpg');"
+  style=" background-image: url('/assets/image/ts_bg.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Research Realness, No Cap Just Facts
+          ARIMA vs LSTM vs GRU
 
         
       </h1>
       
-        <p class="page__lead">Big Data | OpenAlex | EDA | Pyspark
+        <p class="page__lead">Time Series Forecasting | Nerual Network |  ARIMA | Prediction
 
 </p>
       
@@ -159,7 +159,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-05-15T00:00:00+08:00">May 15, 2024</time>
+        <time datetime="2024-05-08T00:00:00+08:00">May 8, 2024</time>
       </span>
     
 
@@ -300,9 +300,9 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Research Realness, No Cap Just Facts">
-    <meta itemprop="description" content="Big Data | OpenAlex | EDA | Pyspark">
-    <meta itemprop="datePublished" content="2024-05-15T00:00:00+08:00">
+    <meta itemprop="headline" content="ARIMA vs LSTM vs GRU">
+    <meta itemprop="description" content="Time Series Forecasting | Nerual Network |  ARIMA | Prediction">
+    <meta itemprop="datePublished" content="2024-05-08T00:00:00+08:00">
     
 
     <div class="page__inner-wrap">
@@ -310,71 +310,40 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Big Data | OpenAlex | EDA | Pyspark</p>
+        <p>Time Series Forecasting | Nerual Network |  ARIMA | Prediction</p>
 
-<p>This project aims to understand the distribution of published works in terms of different categories and factors in <a href="https://openalex.org/">OpenAlex</a>. OpenAlex is an open source platform that contains different forms of published works ranging from research literature to different academic journals in different institution all over the world. With this dataset, our goal is to understand the trends and patterns that we may garnered specifically in different fields such as:</p>
+<p>In this mini-project we forecast the daily consumption one month in advance of the PJM West Region: 2001-2018 (PJMW) estimated hourly energy consumption data from PJM in Megawatts
+dataset which can be found <a href="https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption/data">here</a></p>
 
-<ul>
-  <li>Author and Institution analysis: By analyzing the different constribution made by the authors and institutions we may identify the profile of the leading researchers and institutions.</li>
-  <li>Categorical Distribution: understanding the different distribution of published works in different fields and domain.</li>
-  <li>Temporal Trends: We examine the evolution of published wokrs over the years. This could in the form of number of publication per year, common use words per year, and so on.</li>
-  <li>Citation and Score impact: We examine the number of citation and primary_score made by OpenAlex. With this we may know which among institutions annd authors has a significant contribution in their respective field.</li>
-</ul>
+<p>Visualization of the data
+<img src="/assets/image/ts_data.jpg" alt="data" /></p>
 
-<p><strong>Methodology</strong>
-<img src="/assets/image/bdcc_lab_method.jpg" alt="Method" /></p>
+<p><strong>Results</strong></p>
 
-<p><strong>Initial Results</strong></p>
+<p><strong>ARIMA</strong> 
+<img src="/assets/image/ts_ariima.jpg" alt="arima" /></p>
 
-<p><strong>Author and Institution Analysis</strong></p>
+<p><strong>LSTM</strong> 
+<img src="/assets/image/ts_lstm.jpg" alt="lstm" /></p>
 
-<p>By Institution
-<img src="/assets/image/bdcc_lab_inst.jpg" alt="inst" /></p>
+<p><strong>GRU</strong> 
+<img src="/assets/image/ts_gru.jpg" alt="gru" /></p>
 
-<p>By Author 
-<img src="/assets/image/bdcc_lab_auth.jpg" alt="auth" /></p>
+<p>Baseline 
+<img src="/assets/image/ts_base.jpg" alt="base" /></p>
 
-<p><strong>Categorical Distribution</strong></p>
+<p>Model Performance
+<img src="/assets/image/ts_mp.jpg" alt="mp" /></p>
 
-<p>By Type
-<img src="/assets/image/bdcc_lab_type.jpg" alt="type" /></p>
+<p>Based on the dataframe above all validation and testing of the model were able to beat the baseline, however there are some difference on the models themselves. On validation, a hypertuned LSTM had the best validation MAE, followed by GRU then ARIMA. But in terms of the real performance which is the testing ARIMA had the lowest MAE and MAPE and it was way better compared to the hypertuned LSTM and GRU. Note that, although ARIMA were able to beat both model, it has the highest run time as well, it was 5 times slower compared to the NNs, moreover the dataset was aggregated daily, so imagine if the dataset follows its orignal format which is by hourly. Because of that, although the ARIMA performed the best and our dataset is getting larger and larger, then it would be best to choose the second choice, which has a way faster runtime, yet performing more than the baseline. In addition the performance of GRU had barely beaten the baselines that we had set up.</p>
 
-<p>By Domain
-<img src="/assets/image/bdcc_lab_domain.jpg" alt="domain" /></p>
+<p>The hypertuning of the NNs was followed by trial and error and as well as logical guess, the choice of activation function sigmoid, was due to the fact that the data was normalized from 0 to 1 hence we want to reflect that with sigmoid, regarding swish, it is said that handle complex patterns and deep networks more effectively, since we’ve been eyeballing the visualization we are seeing a weak pattern, hence the choice of swish.</p>
 
-<p><strong>Temporal Trends</strong></p>
+<p>for the choice of 2 hidden layers, our group decided to create only up to hidden layers as not to overcomplicate, it. What we meant by overcomplicating it, is by beating the baseline with comlpex architecture where in fact, sa simple 2 layers could give us a favorable results already.</p>
 
-<p>Most Used Words Per Paper For the year 2021
-<img src="/assets/image/bdcc_lab_word.jpg" alt="word" /></p>
+<p>Note:
+We have tried using the hourly basis dataset on the NNs and what we got was almost the same MAE and MAPE.</p>
 
-<p>Example of Progression of Number of Citation and Mean Score of a domain field per year
-<img src="/assets/image/bdcc_lab_progression.jpg" alt="progressin" /></p>
-
-<p><strong>Citation and Score impact</strong>
-<img src="/assets/image/bdcc_lab_citscore.jpg" alt="citscore" /></p>
-
-<p><strong>Conclusion</strong><br />
-The analysis that we have done with the OpenAlex datset had presents us different key findings and patterns across the various fields:</p>
-
-<p><strong>Most published work is in the Medicine field</strong><br />
-Among the 26 fields, Medicine had dominated all others with the most published works. This may be expected, since medicine is most likely driven by the global health challenges and continuous support from many industries as medicine is a key part of a us. However despite having the most published work, the mean score for this field is not the best. The Medicine Field had ranked 14th out of 26 which is, which shows also shows that there are a lot of published works that are not above average score.</p>
-
-<p><strong>Author with the most published work: A9999999999</strong><br />
-Based from the different results this author id gave us the most published works, however by looking at the OpenAlex website this author id is not showing any author at all, which made us beleived that this author id are hidden authors, they are not null values rather they just don’t want to be recognize</p>
-
-<p><strong>Improving mean score</strong><br />
-Another interestining finding that we got is that overtime there is really an improvement of mean score, which means that there is an improvement of quality of published works. Moreover when number of citation had peaked between 2000-2020 the mean score of those years were the highest as well.</p>
-
-<p><strong>Consistency in keywords</strong><br />
-The keywords that we got from the different wordcloud that we created (year 2000, 2020, and 2021) had showed us that there is a consistency of the most common words used in their title, this suggests that there is a persitent focus on investigative and evaluative research across the fields/domains, moreover such consistency also indicates an stable approach on framing research studies.</p>
-
-<p><strong>Citation and Author Productivity</strong> <br />
-Another interesting finding is that, not all authors with the most published work had the highest amount of citation. There is this author with 3 published works only yet garnered the highest number of citation. This indicates that there is a gap between the quality of the published work between the authors.</p>
-
-<p><strong>Institutional Domain Expertise</strong> <br />
-One of the great highlights, is that different institutions exhibits a domain expertise, which means that some instiution performed well on a specific doman while performing worst on the other. This finding also tell us how these institutions allocate their resources.</p>
-
-<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Research%20Realness%3A%20No%20Cap%2C%20Just%20Facts">here</a></p>
 
         
       </section>
@@ -386,7 +355,7 @@ One of the great highlights, is that different institutions exhibits a domain ex
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-05-15T00:00:00+08:00">May 15, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-05-08T00:00:00+08:00">May 8, 2024</time></p>
 
       </footer>
 
@@ -395,11 +364,11 @@ One of the great highlights, is that different institutions exhibits a domain ex
       
   <nav class="pagination">
     
-      <a href="/2024/05/08/Forecasting/" class="pagination--pager" title="ARIMA vs LSTM vs GRU
+      <a href="/2024/03/15/dmw2fp/" class="pagination--pager" title="From Random Walks to Guided Journeys
 ">Previous</a>
     
     
-      <a href="/2024/06/12/autoencoder/" class="pagination--pager" title="Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition
+      <a href="/2024/05/15/bdcc_lab/" class="pagination--pager" title="Research Realness, No Cap Just Facts
 ">Next</a>
     
   </nav>

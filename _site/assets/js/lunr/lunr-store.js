@@ -11,6 +11,12 @@ var store = [{
         "url": "/2024/03/15/dmw2fp/",
         "teaser": null
       },{
+        "title": "ARIMA vs LSTM vs GRU",
+        "excerpt":"Time Series Forecasting | Nerual Network | ARIMA | Prediction In this mini-project we forecast the daily consumption one month in advance of the PJM West Region: 2001-2018 (PJMW) estimated hourly energy consumption data from PJM in Megawatts dataset which can be found here Visualization of the data Results ARIMA...","categories": [],
+        "tags": ["Time","Series","Forecasting","Nerual","Network","ARIMA","Prediction"],
+        "url": "/2024/05/08/Forecasting/",
+        "teaser": null
+      },{
         "title": "Research Realness, No Cap Just Facts",
         "excerpt":"Big Data | OpenAlex | EDA | Pyspark This project aims to understand the distribution of published works in terms of different categories and factors in OpenAlex. OpenAlex is an open source platform that contains different forms of published works ranging from research literature to different academic journals in different...","categories": [],
         "tags": ["Big","Data","OpenAlex","EDA","Pyspark"],
