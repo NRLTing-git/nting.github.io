@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Data In Disguise: Getting More From Less with AI - My Portfolio</title>
-<meta name="description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
+<!-- begin _includes/seo.html --><title>Research Realness, No Cap Just Facts - My Portfolio</title>
+<meta name="description" content="">
 
 
   <meta name="author" content="Nico Rafael Ting">
@@ -23,28 +23,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="My Portfolio">
-<meta property="og:title" content="Data In Disguise: Getting More From Less with AI">
-<meta property="og:url" content="http://localhost:4000/2024/03/11/augmentation/">
-
-
-  <meta property="og:description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
+<meta property="og:title" content="Research Realness, No Cap Just Facts">
+<meta property="og:url" content="http://localhost:4000/_posts/2024-05-15-bdcc_lab/">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/image/ML2-Augment.jpg">
+
+  <meta property="og:image" content="http://localhost:4000/assets/image/bdcc_lab.jpg">
 
 
 
 
 
-  <meta property="article:published_time" content="2024-03-11T00:00:00+08:00">
+  <meta property="article:published_time" content="2024-05-15T00:00:00+08:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/2024/03/11/augmentation/">
+<link rel="canonical" href="http://localhost:4000/_posts/2024-05-15-bdcc_lab/">
 
 
 
@@ -136,37 +134,18 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: url('/assets/image/ML2-Augment.jpg');"
+  style=" background-image: url('/assets/image/bdcc_lab.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Data In Disguise: Getting More From Less with AI
+          Research Realness, No Cap Just Facts
 
         
       </h1>
       
-        <p class="page__lead">Data Augmentation | Large Language Models | Shapely Additive Explanation
-
-</p>
       
-      
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-03-11T00:00:00+08:00">March 11, 2024</time>
-      </span>
-    
-
-    
-
-    
-  </p>
 
 
       
@@ -300,9 +279,9 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Data In Disguise: Getting More From Less with AI">
-    <meta itemprop="description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
-    <meta itemprop="datePublished" content="2024-03-11T00:00:00+08:00">
+    <meta itemprop="headline" content="Research Realness, No Cap Just Facts">
+    
+    <meta itemprop="datePublished" content="2024-05-15T00:00:00+08:00">
     
 
     <div class="page__inner-wrap">
@@ -310,45 +289,71 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Data Augmentation | Large Language Models | Shapely Additive Explanation</p>
+        <p>Big Data | OpenAlex | EDA | Pyspark</p>
 
-<p>The study explores using LLMs like ChatGPT and Claude, along with the Shapley Additive Explanations (SHAP) algorithm, 
-to create synthetic data for enhancing emotion detection models. A logistic regression model trained on a combination
-of real and LLM-generated synthetic data achieved comparable accuracies up to 78.5% and 78.8% respectively, demonstrating
-the viability of using LLMs to effectively mimic real data distributions. Key factors include providing LLMs with data exemplars
-and using SHAP to identify emotion-associated keywords to guide the generation process. The study highlights the potential of LLMs
-to overcome data constraints and unlock AI capabilities through informed prompt engineering and interpretability methods.</p>
+<p>This project aims to understand the distribution of published works in terms of different categories and factors in <a href="https://openalex.org/">OpenAlex</a>. OpenAlex is an open source platform that contains different forms of published works ranging from research literature to different academic journals in different institution all over the world. With this dataset, our goal is to understand the trends and patterns that we may garnered specifically in different fields such as:</p>
 
-<p>Snippet of what the data used in this study
-<img src="/assets/image/ml2-dataset.jpg" alt="Emotion" /></p>
+<ul>
+  <li>Author and Institution analysis: By analyzing the different constribution made by the authors and institutions we may identify the profile of the leading researchers and institutions.</li>
+  <li>Categorical Distribution: understanding the different distribution of published works in different fields and domain.</li>
+  <li>Temporal Trends: We examine the evolution of published wokrs over the years. This could in the form of number of publication per year, common use words per year, and so on.</li>
+  <li>Citation and Score impact: We examine the number of citation and primary_score made by OpenAlex. With this we may know which among institutions annd authors has a significant contribution in their respective field.</li>
+</ul>
 
-<p><strong>Results</strong></p>
+<p><strong>Methodology</strong>
+<img src="/assets/image/bdcc_lab_method.jpg" alt="Method" /></p>
 
-<p><strong>Improvements in Model Accuracy with Addition of Supplementary Data</strong>
-<img src="/assets/image/ml2-resutls.jpg" alt="Result" /></p>
+<p><strong>Initial Results</strong></p>
 
-<p><strong>Progression of Accuracy as Real and LLM-Generated Data are Added</strong>
-<img src="/assets/image/ml2-graph.jpg" alt="graph" /></p>
+<p><strong>Author and Institution Analysis</strong></p>
 
-<p>Overall, the results of this paper highlight the immense potential of leveraging large language models to
-generate high-quality synthetic data, thereby helping organizations overcome data scarcity challenges and take advantage of the full capabilities
-of state-of-the-art AI systems, particularly in the context of emotion detection or sentiment analysis tasks.
-However, it is important to note that the key to unlocking this insight lies in the process of prompt engineering,
-which involves carefully crafting the prompts given to LLMs. In this study, the prompt engineering process was informed by two crucial components:</p>
-<ol>
-  <li>Exemplars: A set of 40 real data samples were provided as exemplars to the
-LLMs, allowing them to grasp the desired structure, tone, and style of the
-target textual data.</li>
-  <li>SHAP-derived keywords: The Shapley Additive Explanations (SHAP) algorithm was employed to identify the most influential words that contribute
-to the prediction of each emotion class (anger and joy). <br /></li>
-</ol>
+<p>By Institution
+<img src="/assets/image/bdcc_lab_inst.jpg" alt="inst" /></p>
 
-<p>These SHAP-derived keywords were then incorporated into the prompts, guiding
-the LLMs to generate synthetic data that accurately reflects the linguistic patterns
-associated with each emotion. By combining these two components, the prompt engineering process ensured that the LLMs had access to both representative examples
-and the most salient features of the real data</p>
+<p>By Author 
+<img src="/assets/image/bdcc_lab_auth.jpg" alt="auth" /></p>
 
-<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI">here</a></p>
+<p><strong>Categorical Distribution</strong></p>
+
+<p>By Type
+<img src="/assets/image/bdcc_lab_type.jpg" alt="type" /></p>
+
+<p>By Domain
+<img src="/assets/image/bdcc_lab_domain.jpg" alt="domain" /></p>
+
+<p><strong>Temporal Trends</strong></p>
+
+<p>Most Used Words Per Paper For the year 2021
+<img src="/assets/image/bdcc_lab_word.jpg" alt="word" /></p>
+
+<p>Example of Progression of Number of Citation and Mean Score of a domain field per year
+<img src="/assets/image/bdcc_lab_progression.jpg" alt="progressin" /></p>
+
+<p><strong>Citation and Score impact</strong>
+<img src="/assets/image/bdcc_lab_citscore.jpg" alt="citscore" /></p>
+
+<p><strong>Conclusion</strong><br />
+The analysis that we have done with the OpenAlex datset had presents us different key findings and patterns across the various fields:</p>
+
+<p><strong>Most published work is in the Medicine field</strong><br />
+Among the 26 fields, Medicine had dominated all others with the most published works. This may be expected, since medicine is most likely driven by the global health challenges and continuous support from many industries as medicine is a key part of a us. However despite having the most published work, the mean score for this field is not the best. The Medicine Field had ranked 14th out of 26 which is, which shows also shows that there are a lot of published works that are not above average score.</p>
+
+<p><strong>Author with the most published work: A9999999999</strong><br />
+Based from the different results this author id gave us the most published works, however by looking at the OpenAlex website this author id is not showing any author at all, which made us beleived that this author id are hidden authors, they are not null values rather they just don’t want to be recognize</p>
+
+<p><strong>Improving mean score</strong><br />
+Another interestining finding that we got is that overtime there is really an improvement of mean score, which means that there is an improvement of quality of published works. Moreover when number of citation had peaked between 2000-2020 the mean score of those years were the highest as well.</p>
+
+<p><strong>Consistency in keywords</strong><br />
+The keywords that we got from the different wordcloud that we created (year 2000, 2020, and 2021) had showed us that there is a consistency of the most common words used in their title, this suggests that there is a persitent focus on investigative and evaluative research across the fields/domains, moreover such consistency also indicates an stable approach on framing research studies.</p>
+
+<p><strong>Citation and Author Productivity</strong> <br />
+Another interesting finding is that, not all authors with the most published work had the highest amount of citation. There is this author with 3 published works only yet garnered the highest number of citation. This indicates that there is a gap between the quality of the published work between the authors.</p>
+
+<p><strong>Institutional Domain Expertise</strong> <br />
+One of the great highlights, is that different institutions exhibits a domain expertise, which means that some instiution performed well on a specific doman while performing worst on the other. This finding also tell us how these institutions allocate their resources.</p>
+
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Research%20Realness%3A%20No%20Cap%2C%20Just%20Facts">here</a></p>
 
         
       </section>
@@ -360,23 +365,13 @@ and the most salient features of the real data</p>
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-03-11T00:00:00+08:00">March 11, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-05-15T00:00:00+08:00">May 15, 2024</time></p>
 
       </footer>
 
       
 
       
-  <nav class="pagination">
-    
-      <a href="#" class="pagination--pager disabled">Previous</a>
-    
-    
-      <a href="/2024/03/15/dmw2fp/" class="pagination--pager" title="From Random Walks to Guided Journeys
-">Next</a>
-    
-  </nav>
-
     </div>
 
     

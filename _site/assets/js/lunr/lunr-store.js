@@ -5,6 +5,18 @@ var store = [{
         "url": "/2024/03/11/augmentation/",
         "teaser": null
       },{
+        "title": "From Random Walks to Guided Journeys",
+        "excerpt":"Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining This study aims to assist online education systems in understanding user needs and preferences by leveraging frequent itemset mining and association rule mining techniques. The overarching goal is to demonstrate how these data mining algorithms can create personalized...","categories": [],
+        "tags": ["Data","Mining","Frequent","Itemset","Mining","Association","Rule","Mining"],
+        "url": "/2024/03/15/dmw2fp/",
+        "teaser": null
+      },{
+        "title": "Research Realness, No Cap Just Facts",
+        "excerpt":"Big Data | OpenAlex | EDA | Pyspark This project aims to understand the distribution of published works in terms of different categories and factors in OpenAlex. OpenAlex is an open source platform that contains different forms of published works ranging from research literature to different academic journals in different...","categories": [],
+        "tags": ["Big","Data","OpenAlex","EDA","Pyspark"],
+        "url": "/2024/05/15/bdcc_lab/",
+        "teaser": null
+      },{
         "title": "Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition",
         "excerpt":"Machine Learning | Autoencoder | Neural Network | Clustering This study explores the use of autoencoders as a data preprocessing step to improve feature separation by latent factor extraction. Data Compression through various methods is useful in Data Science to improve feature separation or as feature engineering or vectorization. Our...","categories": [],
         "tags": ["Machine","Learning","Autoencoder","Neural","Network","Clustering"],

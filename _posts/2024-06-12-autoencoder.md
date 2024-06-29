@@ -30,4 +30,4 @@ Insights:
 2. Domain Expertise can be applied to customize the preparation step
 3. This can be applied into customer segmentation, anomaly detection, and product categorization
 
-For a more detailed report you can access the paper and coder [here](https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition)
+For a more detailed report you can access the paper and code [here](https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition)

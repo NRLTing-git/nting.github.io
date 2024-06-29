@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T22:03:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><author><name>Nico Rafael Ting</name></author><entry><title type="html">Predicting News Attentionn and What Drives It</title><link href="http://localhost:4000/2024/06/13/gdelt/" rel="alternate" type="text/html" title="Predicting News Attentionn and What Drives It" /><published>2024-06-13T00:00:00+08:00</published><updated>2024-06-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/13/gdelt</id><content type="html" xml:base="http://localhost:4000/2024/06/13/gdelt/"><![CDATA[<p>AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T12:51:55+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><author><name>Nico Rafael Ting</name></author><entry><title type="html">Predicting News Attentionn and What Drives It</title><link href="http://localhost:4000/2024/06/13/gdelt/" rel="alternate" type="text/html" title="Predicting News Attentionn and What Drives It" /><published>2024-06-13T00:00:00+08:00</published><updated>2024-06-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/13/gdelt</id><content type="html" xml:base="http://localhost:4000/2024/06/13/gdelt/"><![CDATA[<p>AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction</p>
 
 <p>This Project is a Big Data Project and was done through AWS specifically in EMR Wokrspace</p>
 
@@ -32,7 +32,7 @@ the event in the news. Most likely, this is because the most attention grabbing 
 What is surprising is that the goldstein score which is meant to be a measurement of the impact of conflict or cooperation is very low on feature importance and has 
 low predictive power of event importance.</p>
 
-<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/What's%20Popping%3F%3A%20Predicting%20News%20Attention%20and%20What%20Drives%20It">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Big" /><category term="Data" /><category term="Cloud" /><category term="Computing" /><category term="GDELT" /><category term="Events" /><category term="Prediction" /><summary type="html"><![CDATA[AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction]]></summary></entry><entry><title type="html">Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition</title><link href="http://localhost:4000/2024/06/12/autoencoder/" rel="alternate" type="text/html" title="Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition" /><published>2024-06-12T00:00:00+08:00</published><updated>2024-06-12T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/12/autoencoder</id><content type="html" xml:base="http://localhost:4000/2024/06/12/autoencoder/"><![CDATA[<p>Machine Learning | Autoencoder | Neural Network | Clustering</p>
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/What's%20Popping%3F%3A%20Predicting%20News%20Attention%20and%20What%20Drives%20It">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Big" /><category term="Data" /><category term="Cloud" /><category term="Computing" /><category term="GDELT" /><category term="Events" /><category term="Prediction" /><summary type="html"><![CDATA[AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction]]></summary></entry><entry><title type="html">Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition</title><link href="http://localhost:4000/2024/06/12/autoencoder/" rel="alternate" type="text/html" title="Decoding Meaning from Data: Utilizing Autoencoders for enhanced Pattern Recognition" /><published>2024-06-12T00:00:00+08:00</published><updated>2024-06-12T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/12/autoencoder</id><content type="html" xml:base="http://localhost:4000/2024/06/12/autoencoder/"><![CDATA[<p>Machine Learning | Autoencoder | Neural Network | Clustering</p>
 
 <p>This study explores the use of autoencoders as a data preprocessing step to improve feature separation by latent factor extraction. Data Compression through various methods is useful in Data Science to improve feature separation or as feature engineering or vectorization. Our study furthers this by attempting to make a universalizable method for preprocessing by using a proximity matrix and then an autoencoder to use relationships between rows as the primary features that we extract and use for clustering. Clustering is done with K-means and Ward’s clustering algorithms, and the best performing results are noted. We evaluate this method over five University of Irving public datasets commonly used as benchmarks and show in which cases that the method can effectively improve feature extraction and thus the clustering results.</p>
 
@@ -56,7 +56,118 @@ low predictive power of event importance.</p>
   <li>This can be applied into customer segmentation, anomaly detection, and product categorization</li>
 </ol>
 
-<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Machine" /><category term="Learning" /><category term="Autoencoder" /><category term="Neural" /><category term="Network" /><category term="Clustering" /><summary type="html"><![CDATA[Machine Learning | Autoencoder | Neural Network | Clustering]]></summary></entry><entry><title type="html">Data In Disguise: Getting More From Less with AI</title><link href="http://localhost:4000/2024/03/11/augmentation/" rel="alternate" type="text/html" title="Data In Disguise: Getting More From Less with AI" /><published>2024-03-11T00:00:00+08:00</published><updated>2024-03-11T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/11/augmentation</id><content type="html" xml:base="http://localhost:4000/2024/03/11/augmentation/"><![CDATA[<p>Data Augmentation | Large Language Models | Shapely Additive Explanation</p>
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Decoding%20Meaning%20from%20Data%3A%20Utilizing%20Autoencoders%20for%20enhanced%20%20Pattern%20Recognition">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Machine" /><category term="Learning" /><category term="Autoencoder" /><category term="Neural" /><category term="Network" /><category term="Clustering" /><summary type="html"><![CDATA[Machine Learning | Autoencoder | Neural Network | Clustering]]></summary></entry><entry><title type="html">Research Realness, No Cap Just Facts</title><link href="http://localhost:4000/2024/05/15/bdcc_lab/" rel="alternate" type="text/html" title="Research Realness, No Cap Just Facts" /><published>2024-05-15T00:00:00+08:00</published><updated>2024-05-15T00:00:00+08:00</updated><id>http://localhost:4000/2024/05/15/bdcc_lab</id><content type="html" xml:base="http://localhost:4000/2024/05/15/bdcc_lab/"><![CDATA[<p>Big Data | OpenAlex | EDA | Pyspark</p>
+
+<p>This project aims to understand the distribution of published works in terms of different categories and factors in <a href="https://openalex.org/">OpenAlex</a>. OpenAlex is an open source platform that contains different forms of published works ranging from research literature to different academic journals in different institution all over the world. With this dataset, our goal is to understand the trends and patterns that we may garnered specifically in different fields such as:</p>
+
+<ul>
+  <li>Author and Institution analysis: By analyzing the different constribution made by the authors and institutions we may identify the profile of the leading researchers and institutions.</li>
+  <li>Categorical Distribution: understanding the different distribution of published works in different fields and domain.</li>
+  <li>Temporal Trends: We examine the evolution of published wokrs over the years. This could in the form of number of publication per year, common use words per year, and so on.</li>
+  <li>Citation and Score impact: We examine the number of citation and primary_score made by OpenAlex. With this we may know which among institutions annd authors has a significant contribution in their respective field.</li>
+</ul>
+
+<p><strong>Methodology</strong>
+<img src="/assets/image/bdcc_lab_method.jpg" alt="Method" /></p>
+
+<p><strong>Initial Results</strong></p>
+
+<p><strong>Author and Institution Analysis</strong></p>
+
+<p>By Institution
+<img src="/assets/image/bdcc_lab_inst.jpg" alt="inst" /></p>
+
+<p>By Author 
+<img src="/assets/image/bdcc_lab_auth.jpg" alt="auth" /></p>
+
+<p><strong>Categorical Distribution</strong></p>
+
+<p>By Type
+<img src="/assets/image/bdcc_lab_type.jpg" alt="type" /></p>
+
+<p>By Domain
+<img src="/assets/image/bdcc_lab_domain.jpg" alt="domain" /></p>
+
+<p><strong>Temporal Trends</strong></p>
+
+<p>Most Used Words Per Paper For the year 2021
+<img src="/assets/image/bdcc_lab_word.jpg" alt="word" /></p>
+
+<p>Example of Progression of Number of Citation and Mean Score of a domain field per year
+<img src="/assets/image/bdcc_lab_progression.jpg" alt="progressin" /></p>
+
+<p><strong>Citation and Score impact</strong>
+<img src="/assets/image/bdcc_lab_citscore.jpg" alt="citscore" /></p>
+
+<p><strong>Conclusion</strong><br />
+The analysis that we have done with the OpenAlex datset had presents us different key findings and patterns across the various fields:</p>
+
+<p><strong>Most published work is in the Medicine field</strong><br />
+Among the 26 fields, Medicine had dominated all others with the most published works. This may be expected, since medicine is most likely driven by the global health challenges and continuous support from many industries as medicine is a key part of a us. However despite having the most published work, the mean score for this field is not the best. The Medicine Field had ranked 14th out of 26 which is, which shows also shows that there are a lot of published works that are not above average score.</p>
+
+<p><strong>Author with the most published work: A9999999999</strong><br />
+Based from the different results this author id gave us the most published works, however by looking at the OpenAlex website this author id is not showing any author at all, which made us beleived that this author id are hidden authors, they are not null values rather they just don’t want to be recognize</p>
+
+<p><strong>Improving mean score</strong><br />
+Another interestining finding that we got is that overtime there is really an improvement of mean score, which means that there is an improvement of quality of published works. Moreover when number of citation had peaked between 2000-2020 the mean score of those years were the highest as well.</p>
+
+<p><strong>Consistency in keywords</strong><br />
+The keywords that we got from the different wordcloud that we created (year 2000, 2020, and 2021) had showed us that there is a consistency of the most common words used in their title, this suggests that there is a persitent focus on investigative and evaluative research across the fields/domains, moreover such consistency also indicates an stable approach on framing research studies.</p>
+
+<p><strong>Citation and Author Productivity</strong> <br />
+Another interesting finding is that, not all authors with the most published work had the highest amount of citation. There is this author with 3 published works only yet garnered the highest number of citation. This indicates that there is a gap between the quality of the published work between the authors.</p>
+
+<p><strong>Institutional Domain Expertise</strong> <br />
+One of the great highlights, is that different institutions exhibits a domain expertise, which means that some instiution performed well on a specific doman while performing worst on the other. This finding also tell us how these institutions allocate their resources.</p>
+
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Research%20Realness%3A%20No%20Cap%2C%20Just%20Facts">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Big" /><category term="Data" /><category term="OpenAlex" /><category term="EDA" /><category term="Pyspark" /><summary type="html"><![CDATA[Big Data | OpenAlex | EDA | Pyspark]]></summary></entry><entry><title type="html">From Random Walks to Guided Journeys</title><link href="http://localhost:4000/2024/03/15/dmw2fp/" rel="alternate" type="text/html" title="From Random Walks to Guided Journeys" /><published>2024-03-15T00:00:00+08:00</published><updated>2024-03-15T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/15/dmw2fp</id><content type="html" xml:base="http://localhost:4000/2024/03/15/dmw2fp/"><![CDATA[<p>Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining</p>
+
+<p>This study aims to assist online education systems in understanding user needs and preferences by 
+leveraging frequent itemset mining and association rule mining techniques. The overarching goal is to 
+demonstrate how these data mining algorithms can create personalized learning pathways that align with the 
+collective interests and goals of learners. The context highlights the rapid growth of the online education
+market and the increasing demand for structured skill-building pathways. The methodology involves data preprocessing, 
+clustering courses into technical and non-technical categories, generating frequent itemsets and association rules,
+and providing course recommendations through these identified patterns. Utilizing a Coursera reviews dataset, 
+the analysis revealed promising results, with the association rule recommendations outperforming random recommendations 
+in an A/B testing process. To address the cold start problem for new users, the approach suggests offering beginner 
+and intermediate-level course bundles. The study concludes by discussing the robustness of the integrated recommendation 
+system and outlining future directions, including incorporating domain expertise for pathway creation and course segmentation. 
+Potential organizational analysis for optimal skill development pacing is also proposed.</p>
+
+<p>The dataset used in this study can be found <a href="https://www.kaggle.com/datasets/khusheekapoor/coursera-courses-dataset-2021">here</a></p>
+
+<p>One of the underlying problem with the dataset is the imbalancess of course taken by the users, majority of the users are taking technical courses, 
+while less people are taking non-technical courses, to solve this problem, we employed a clusteriing method (Ward’s Method) to separate the technical and non-tehcnial
+courses, the dataset used for this is the skill gained based on that course.</p>
+
+<p><strong>Clustering Result</strong>
+<img src="/assets/image/dmw_fp_clus.jpg" alt="clus" /></p>
+
+<p><strong>Courses per label</strong>
+<img src="/assets/image/dmw2_fp_label.jpg" alt="label" /></p>
+
+<p>Finally, once we were able to resolve this underlying problem we used FIM and are</p>
+
+<p><strong>Results</strong></p>
+
+<p>Frequent Itemset Mining
+<img src="/assets/image/dmw2_fp_fim.jpg" alt="fim" /></p>
+
+<p>Assiciation Rule Mining
+<img src="/assets/image/dmw2_fp_arm.jpg" alt="arm" /></p>
+
+<p><strong>Course Recommendation</strong>
+<img src="/assets/image/dmw2_fp_recos.jpg" alt="recos" />
+<img src="/assets/image/dmw2_fp_score.jpg" alt="score" /></p>
+
+<p>The integration of ARM- and FIM-based recommendations provides a robust and comprehensive solution for generating personalized learning pathways within online education platforms. The Association Rule Recommendation method leverages the identified patterns and rules to provide highly relevant recommendations for users with existing activity data. Simultaneously, the FIM-based recommendations address the cold start problem by offering entry-level and intermediate course bundles to new users, ensuring a structured and tailored learning experience from the outset.</p>
+
+<p>By combining these two approaches, the system can effectively cater to the diverse needs and preferences of learners, regardless of their prior experience or activity within the platform. The proposed solution not only enhances the overall learning experience but also promotes more effective and personalized educational pathways aligned with the collective interests and goals of the learners.</p>
+
+<p>Continuous evaluation, iterative improvements to the recommendation algorithms, and the incorporation of additional data sources or contextual information can further refine the recommendation process, ensuring that the system remains adaptive and responsive to the evolving needs of learners in the dynamic online education landscape.</p>
+
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/From%20Random%20Walks%20to%20Guided%20Journey%3A%20Shaping%20Learning%20Pathway%20Through%20Frequent%20Itemset%20Mining">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Data" /><category term="Mining" /><category term="Frequent" /><category term="Itemset" /><category term="Mining" /><category term="Association" /><category term="Rule" /><category term="Mining" /><summary type="html"><![CDATA[Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining]]></summary></entry><entry><title type="html">Data In Disguise: Getting More From Less with AI</title><link href="http://localhost:4000/2024/03/11/augmentation/" rel="alternate" type="text/html" title="Data In Disguise: Getting More From Less with AI" /><published>2024-03-11T00:00:00+08:00</published><updated>2024-03-11T00:00:00+08:00</updated><id>http://localhost:4000/2024/03/11/augmentation</id><content type="html" xml:base="http://localhost:4000/2024/03/11/augmentation/"><![CDATA[<p>Data Augmentation | Large Language Models | Shapely Additive Explanation</p>
 
 <p>The study explores using LLMs like ChatGPT and Claude, along with the Shapley Additive Explanations (SHAP) algorithm, 
 to create synthetic data for enhancing emotion detection models. A logistic regression model trained on a combination
@@ -94,4 +205,4 @@ the LLMs to generate synthetic data that accurately reflects the linguistic patt
 associated with each emotion. By combining these two components, the prompt engineering process ensured that the LLMs had access to both representative examples
 and the most salient features of the real data</p>
 
-<p>For a more detailed report you can access the paper and coder <a href="https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Data" /><category term="Augmentation" /><category term="Large" /><category term="Language" /><category term="Models" /><category term="Shapely" /><category term="Additive" /><category term="Explanation" /><summary type="html"><![CDATA[Data Augmentation | Large Language Models | Shapely Additive Explanation]]></summary></entry></feed>
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI">here</a></p>]]></content><author><name>Nico Rafael Ting</name></author><category term="Data" /><category term="Augmentation" /><category term="Large" /><category term="Language" /><category term="Models" /><category term="Shapely" /><category term="Additive" /><category term="Explanation" /><summary type="html"><![CDATA[Data Augmentation | Large Language Models | Shapely Additive Explanation]]></summary></entry></feed>

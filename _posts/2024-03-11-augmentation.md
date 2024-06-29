@@ -43,4 +43,4 @@ the LLMs to generate synthetic data that accurately reflects the linguistic patt
 associated with each emotion. By combining these two components, the prompt engineering process ensured that the LLMs had access to both representative examples
 and the most salient features of the real data
 
-For a more detailed report you can access the paper and coder [here](https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI)
+For a more detailed report you can access the paper and code [here](https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI)

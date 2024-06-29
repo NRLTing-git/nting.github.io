@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Data In Disguise: Getting More From Less with AI - My Portfolio</title>
-<meta name="description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
+<!-- begin _includes/seo.html --><title>From Random Walks to Guided Journeys - My Portfolio</title>
+<meta name="description" content="Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining">
 
 
   <meta name="author" content="Nico Rafael Ting">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="My Portfolio">
-<meta property="og:title" content="Data In Disguise: Getting More From Less with AI">
-<meta property="og:url" content="http://localhost:4000/2024/03/11/augmentation/">
+<meta property="og:title" content="From Random Walks to Guided Journeys">
+<meta property="og:url" content="http://localhost:4000/2024/03/15/dmw2fp/">
 
 
-  <meta property="og:description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/image/ML2-Augment.jpg">
+  <meta property="og:description" content="Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining">
 
 
 
-
-
-  <meta property="article:published_time" content="2024-03-11T00:00:00+08:00">
+  <meta property="og:image" content="http://localhost:4000/assets/image/dmw2_fp.jpg">
 
 
 
 
 
+  <meta property="article:published_time" content="2024-03-15T00:00:00+08:00">
 
-<link rel="canonical" href="http://localhost:4000/2024/03/11/augmentation/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2024/03/15/dmw2fp/">
 
 
 
@@ -136,18 +136,18 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: url('/assets/image/ML2-Augment.jpg');"
+  style=" background-image: url('/assets/image/dmw2_fp.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Data In Disguise: Getting More From Less with AI
+          From Random Walks to Guided Journeys
 
         
       </h1>
       
-        <p class="page__lead">Data Augmentation | Large Language Models | Shapely Additive Explanation
+        <p class="page__lead">Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining
 
 </p>
       
@@ -159,7 +159,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-03-11T00:00:00+08:00">March 11, 2024</time>
+        <time datetime="2024-03-15T00:00:00+08:00">March 15, 2024</time>
       </span>
     
 
@@ -300,9 +300,9 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Data In Disguise: Getting More From Less with AI">
-    <meta itemprop="description" content="Data Augmentation | Large Language Models | Shapely Additive Explanation">
-    <meta itemprop="datePublished" content="2024-03-11T00:00:00+08:00">
+    <meta itemprop="headline" content="From Random Walks to Guided Journeys">
+    <meta itemprop="description" content="Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining">
+    <meta itemprop="datePublished" content="2024-03-15T00:00:00+08:00">
     
 
     <div class="page__inner-wrap">
@@ -310,45 +310,54 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>Data Augmentation | Large Language Models | Shapely Additive Explanation</p>
+        <p>Data Mining and Wrangling | Frequent Itemset Mining | Association Rule Mining</p>
 
-<p>The study explores using LLMs like ChatGPT and Claude, along with the Shapley Additive Explanations (SHAP) algorithm, 
-to create synthetic data for enhancing emotion detection models. A logistic regression model trained on a combination
-of real and LLM-generated synthetic data achieved comparable accuracies up to 78.5% and 78.8% respectively, demonstrating
-the viability of using LLMs to effectively mimic real data distributions. Key factors include providing LLMs with data exemplars
-and using SHAP to identify emotion-associated keywords to guide the generation process. The study highlights the potential of LLMs
-to overcome data constraints and unlock AI capabilities through informed prompt engineering and interpretability methods.</p>
+<p>This study aims to assist online education systems in understanding user needs and preferences by 
+leveraging frequent itemset mining and association rule mining techniques. The overarching goal is to 
+demonstrate how these data mining algorithms can create personalized learning pathways that align with the 
+collective interests and goals of learners. The context highlights the rapid growth of the online education
+market and the increasing demand for structured skill-building pathways. The methodology involves data preprocessing, 
+clustering courses into technical and non-technical categories, generating frequent itemsets and association rules,
+and providing course recommendations through these identified patterns. Utilizing a Coursera reviews dataset, 
+the analysis revealed promising results, with the association rule recommendations outperforming random recommendations 
+in an A/B testing process. To address the cold start problem for new users, the approach suggests offering beginner 
+and intermediate-level course bundles. The study concludes by discussing the robustness of the integrated recommendation 
+system and outlining future directions, including incorporating domain expertise for pathway creation and course segmentation. 
+Potential organizational analysis for optimal skill development pacing is also proposed.</p>
 
-<p>Snippet of what the data used in this study
-<img src="/assets/image/ml2-dataset.jpg" alt="Emotion" /></p>
+<p>The dataset used in this study can be found <a href="https://www.kaggle.com/datasets/khusheekapoor/coursera-courses-dataset-2021">here</a></p>
+
+<p>One of the underlying problem with the dataset is the imbalancess of course taken by the users, majority of the users are taking technical courses, 
+while less people are taking non-technical courses, to solve this problem, we employed a clusteriing method (Ward’s Method) to separate the technical and non-tehcnial
+courses, the dataset used for this is the skill gained based on that course.</p>
+
+<p><strong>Clustering Result</strong>
+<img src="/assets/image/dmw_fp_clus.jpg" alt="clus" /></p>
+
+<p><strong>Courses per label</strong>
+<img src="/assets/image/dmw2_fp_label.jpg" alt="label" /></p>
+
+<p>Finally, once we were able to resolve this underlying problem we used FIM and are</p>
 
 <p><strong>Results</strong></p>
 
-<p><strong>Improvements in Model Accuracy with Addition of Supplementary Data</strong>
-<img src="/assets/image/ml2-resutls.jpg" alt="Result" /></p>
+<p>Frequent Itemset Mining
+<img src="/assets/image/dmw2_fp_fim.jpg" alt="fim" /></p>
 
-<p><strong>Progression of Accuracy as Real and LLM-Generated Data are Added</strong>
-<img src="/assets/image/ml2-graph.jpg" alt="graph" /></p>
+<p>Assiciation Rule Mining
+<img src="/assets/image/dmw2_fp_arm.jpg" alt="arm" /></p>
 
-<p>Overall, the results of this paper highlight the immense potential of leveraging large language models to
-generate high-quality synthetic data, thereby helping organizations overcome data scarcity challenges and take advantage of the full capabilities
-of state-of-the-art AI systems, particularly in the context of emotion detection or sentiment analysis tasks.
-However, it is important to note that the key to unlocking this insight lies in the process of prompt engineering,
-which involves carefully crafting the prompts given to LLMs. In this study, the prompt engineering process was informed by two crucial components:</p>
-<ol>
-  <li>Exemplars: A set of 40 real data samples were provided as exemplars to the
-LLMs, allowing them to grasp the desired structure, tone, and style of the
-target textual data.</li>
-  <li>SHAP-derived keywords: The Shapley Additive Explanations (SHAP) algorithm was employed to identify the most influential words that contribute
-to the prediction of each emotion class (anger and joy). <br /></li>
-</ol>
+<p><strong>Course Recommendation</strong>
+<img src="/assets/image/dmw2_fp_recos.jpg" alt="recos" />
+<img src="/assets/image/dmw2_fp_score.jpg" alt="score" /></p>
 
-<p>These SHAP-derived keywords were then incorporated into the prompts, guiding
-the LLMs to generate synthetic data that accurately reflects the linguistic patterns
-associated with each emotion. By combining these two components, the prompt engineering process ensured that the LLMs had access to both representative examples
-and the most salient features of the real data</p>
+<p>The integration of ARM- and FIM-based recommendations provides a robust and comprehensive solution for generating personalized learning pathways within online education platforms. The Association Rule Recommendation method leverages the identified patterns and rules to provide highly relevant recommendations for users with existing activity data. Simultaneously, the FIM-based recommendations address the cold start problem by offering entry-level and intermediate course bundles to new users, ensuring a structured and tailored learning experience from the outset.</p>
 
-<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/Data%20In%20Disguise%3A%20Getting%20More%20From%20Less%20with%20AI">here</a></p>
+<p>By combining these two approaches, the system can effectively cater to the diverse needs and preferences of learners, regardless of their prior experience or activity within the platform. The proposed solution not only enhances the overall learning experience but also promotes more effective and personalized educational pathways aligned with the collective interests and goals of the learners.</p>
+
+<p>Continuous evaluation, iterative improvements to the recommendation algorithms, and the incorporation of additional data sources or contextual information can further refine the recommendation process, ensuring that the system remains adaptive and responsive to the evolving needs of learners in the dynamic online education landscape.</p>
+
+<p>For a more detailed report you can access the paper and code <a href="https://github.com/NRLTing-git/my-projects/tree/main/From%20Random%20Walks%20to%20Guided%20Journey%3A%20Shaping%20Learning%20Pathway%20Through%20Frequent%20Itemset%20Mining">here</a></p>
 
         
       </section>
@@ -360,7 +369,7 @@ and the most salient features of the real data</p>
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-03-11T00:00:00+08:00">March 11, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-03-15T00:00:00+08:00">March 15, 2024</time></p>
 
       </footer>
 
@@ -369,10 +378,11 @@ and the most salient features of the real data</p>
       
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="/2024/03/11/augmentation/" class="pagination--pager" title="Data In Disguise: Getting More From Less with AI
+">Previous</a>
     
     
-      <a href="/2024/03/15/dmw2fp/" class="pagination--pager" title="From Random Walks to Guided Journeys
+      <a href="/2024/05/15/bdcc_lab/" class="pagination--pager" title="Research Realness, No Cap Just Facts
 ">Next</a>
     
   </nav>
