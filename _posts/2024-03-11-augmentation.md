@@ -17,15 +17,15 @@ and using SHAP to identify emotion-associated keywords to guide the generation p
 to overcome data constraints and unlock AI capabilities through informed prompt engineering and interpretability methods.
 
 Snippet of what the data used in this study
-![Emotion](/assets/image/ml2-dataset.jpg)
+<img src="{{ site.baseurl }}/assets/image/ml2-dataset.jpg" alt="Emotion">
 
 **Results**
 
 **Improvements in Model Accuracy with Addition of Supplementary Data**
-![Result](/assets/image/ml2-resutls.jpg)
+<img src="{{ site.baseurl }}/assets/image/ml2-resutls.jpg" alt="Result">
 
 **Progression of Accuracy as Real and LLM-Generated Data are Added**
-![graph](/assets/image/ml2-graph.jpg)
+<img src="{{ site.baseurl }}/assets/image/ml2-graph.jpg" alt="graph">
 
 Overall, the results of this paper highlight the immense potential of leveraging large language models to
 generate high-quality synthetic data, thereby helping organizations overcome data scarcity challenges and take advantage of the full capabilities

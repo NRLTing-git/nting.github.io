@@ -14,17 +14,16 @@ This study explores the use of autoencoders as a data preprocessing step to impr
 The data used for this study can be found [here](https://scikit-learn.org/stable/datasets/toy_dataset.html)
 
 **The study follows this general pipeline**
-![Pipeline](/assets/image/pipeline.jpg)
 <img src="{{ site.baseurl }}/assets/image/pipeline.jpg" alt="Pipeline">
 
 
 Final Results
 
 **K-Means**
-![K-Means](/assets/image/K-means.jpg)
+<img src="{{ site.baseurl }}/assets/image/K-means.jpg" alt="K-Means">
 
 **Ward's Method**
-![Ward's](/assets/image/wards.jpg)
+<img src="{{ site.baseurl }}/assets/image/wards.jpg" alt="Ward's">
 
 Insights:
 1. Different Autoencoder architecture or preprocessing steps can extract different features to improve the performance of clustering
