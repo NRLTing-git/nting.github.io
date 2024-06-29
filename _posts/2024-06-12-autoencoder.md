@@ -15,6 +15,7 @@ The data used for this study can be found [here](https://scikit-learn.org/stable
 
 **The study follows this general pipeline**
 ![Pipeline](/assets/image/pipeline.jpg)
+<img src="{{ site.baseurl }}/assets/image/pipeline.jpg" alt="Pipeline">
 
 
 Final Results

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T17:50:51+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><author><name>Nico Rafael Ting</name></author><entry><title type="html">Predicting News Attention and What Drives It</title><link href="http://localhost:4000/2024/06/13/gdelt/" rel="alternate" type="text/html" title="Predicting News Attention and What Drives It" /><published>2024-06-13T00:00:00+08:00</published><updated>2024-06-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/13/gdelt</id><content type="html" xml:base="http://localhost:4000/2024/06/13/gdelt/"><![CDATA[<p>AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-29T17:54:21+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My Portfolio</title><author><name>Nico Rafael Ting</name></author><entry><title type="html">Predicting News Attention and What Drives It</title><link href="http://localhost:4000/2024/06/13/gdelt/" rel="alternate" type="text/html" title="Predicting News Attention and What Drives It" /><published>2024-06-13T00:00:00+08:00</published><updated>2024-06-13T00:00:00+08:00</updated><id>http://localhost:4000/2024/06/13/gdelt</id><content type="html" xml:base="http://localhost:4000/2024/06/13/gdelt/"><![CDATA[<p>AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction</p>
 
 <p>This Project is a Big Data Project and was done through AWS specifically in EMR Wokrspace</p>
 
@@ -39,6 +39,7 @@ low predictive power of event importance.</p>
 <p>The data used for this study can be found <a href="https://scikit-learn.org/stable/datasets/toy_dataset.html">here</a></p>
 
 <p><strong>The study follows this general pipeline</strong>
+<img src="/assets/image/pipeline.jpg" alt="Pipeline" />
 <img src="/assets/image/pipeline.jpg" alt="Pipeline" /></p>
 
 <p>Final Results</p>
