@@ -2,6 +2,7 @@ title: My Portfolio
 repository: NRLTing-git/nting.github.io
 email: nrl.ting@gmail.com
 subtitle: "Hello world!"
+baseurl: "/nting.github.io"
 url: "https://nrlting-git.github.io/nting.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 name: "Nico Rafael Ting"
 
