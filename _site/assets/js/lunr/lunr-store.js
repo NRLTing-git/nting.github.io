@@ -23,7 +23,7 @@ var store = [{
         "url": "/2024/06/12/autoencoder/",
         "teaser": null
       },{
-        "title": "Predicting News Attentionn and What Drives It",
+        "title": "Predicting News Attention and What Drives It",
         "excerpt":"AWS | EC2 | Big Data | Cloud Computing | GDELT | Prediction This Project is a Big Data Project and was done through AWS specifically in EMR Wokrspace This study focuses on developing predictive models to estimate the number of mentions within the Global Database of Events, Language, and...","categories": [],
         "tags": ["Big","Data","Cloud","Computing","GDELT","Events","Prediction"],
         "url": "/2024/06/13/gdelt/",
